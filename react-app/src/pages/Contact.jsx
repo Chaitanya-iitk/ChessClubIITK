@@ -4,34 +4,42 @@ import profileImg from '../assets/profile_image.webp';
 const COORDINATORS = [
   {
     id: 'coord-0',
-    name: "Akshat Srivastava",
+    name: "Inesh Aggarwal",
     role: "Coordinator",
     funnyDescription: `"Placeholder funny quote or description goes here. Maybe they like cats or play e4 exclusively?"`,
-    email: `akshat@iitk.ac.in`,
+    email: `ineshag24@iitk.ac.in`,
     image: profileImg
   },
   {
     id: 'coord-1',
-    name: "Kushagra Shukla",
+    name: "Laksh Dhir",
     role: "Coordinator",
     funnyDescription: `"Placeholder funny quote or description goes here. Maybe they like cats or play e4 exclusively?"`,
-    email: `kushagra@iitk.ac.in`,
+    email: `laksh24@iitk.ac.in`,
     image: profileImg
   },
   {
     id: 'coord-2',
-    name: "Pulkit Gajipara",
+    name: "Rishi Gupta",
     role: "Coordinator",
     funnyDescription: `"Placeholder funny quote or description goes here. Maybe they like cats or play e4 exclusively?"`,
-    email: `pulkit@iitk.ac.in`,
+    email: `rishi24@iitk.ac.in`,
     image: profileImg
   },
   {
     id: 'coord-3',
-    name: "Tanmay Sahare",
+    name: "Rudra Dwivedi",
     role: "Coordinator",
     funnyDescription: `"Placeholder funny quote or description goes here. Maybe they like cats or play e4 exclusively?"`,
-    email: `tanmay@iitk.ac.in`,
+    email: `rudra24@iitk.ac.in`,
+    image: profileImg
+  },
+  {
+    id: 'coord-4',
+    name: "Shaurya Vats",
+    role: "Coordinator",
+    funnyDescription: `"Placeholder funny quote or description goes here. Maybe they like cats or play e4 exclusively?"`,
+    email: `shaurya24@iitk.ac.in`,
     image: profileImg
   }
 ];
