@@ -31,7 +31,13 @@ const Landing = () => {
       {/* Section 1: Brand Intro */}
       <section
         className="relative min-h-[85vh] flex items-center justify-center px-6 md:px-12 lg:px-20 overflow-hidden bg-[#131313] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${homePgBg})` }}
+        style={{
+          backgroundImage: `
+            radial-gradient(circle at center, rgba(19, 19, 19, 0.18) 0%, rgba(19, 19, 19, 0.72) 58%, rgba(0, 0, 0, 0.94) 100%),
+            linear-gradient(180deg, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0.76) 55%, rgba(0, 0, 0, 0.94) 100%),
+            url(${homePgBg})
+          `,
+        }}
       >
         {/* Cinematic golden dust & lighting beam effect */}
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-radial from-yellow-600/10 via-yellow-900/5 to-transparent blur-[120px] pointer-events-none z-0"></div>
