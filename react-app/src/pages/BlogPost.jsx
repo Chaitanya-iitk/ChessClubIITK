@@ -84,9 +84,9 @@ const BlogPost = () => {
             <div className="w-10 h-10 rounded-full border border-primary/20 bg-primary-container/10 flex items-center justify-center shrink-0">
               <span className="material-symbols-outlined text-primary text-[20px] leading-none">emoji_events</span>
             </div>
-            <div>
-              <p className="text-sm font-bold text-on-surface leading-none m-0">Laksh Dhir</p>
-              <p className="text-[10px] text-on-surface-variant font-label uppercase leading-none m-0">
+            <div className="flex flex-col justify-start">
+              <p className="text-sm font-bold text-on-surface m-0 leading-none">Laksh Dhir</p>
+              <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest m-0 leading-none">
                 Coordinator, Chess Club IITK
               </p>
             </div>
