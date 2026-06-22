@@ -382,7 +382,7 @@ const Calendar = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </main>
 
       <footer className="w-full border-t border-outline-variant/10 bg-surface-container-lowest">
