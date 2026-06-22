@@ -6,21 +6,70 @@ import chessboardImg from '../assets/chessboard.jpg';
 
 const Landing = () => {
   const { isLoggedIn } = useAuth();
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15,
+        delayChildren: 0.1
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: "easeOut" }
+    }
+  };
   return (
     <>
       {/* Section 1: Brand Intro */}
-      <section className="relative h-[80vh] flex items-center justify-center px-12 lg:px-20 overflow-hidden bg-surface-container">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-from)_0%,_transparent_70%)] from-primary/5 to-transparent"></div>
+      <section className="relative min-h-[85vh] flex items-center justify-center px-6 md:px-12 lg:px-20 overflow-hidden bg-[#131313]">
+        {/* Cinematic golden dust & lighting beam effect */}
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-radial from-yellow-600/10 via-yellow-900/5 to-transparent blur-[120px] pointer-events-none z-0"></div>
+        <div className="absolute bottom-1/3 right-1/4 w-[400px] h-[200px] bg-radial from-yellow-600/5 to-transparent blur-[160px] pointer-events-none z-0"></div>
+
+        {/* Elegant chess board subtle border line frame around the hero */}
+        <div className="absolute inset-x-8 md:inset-x-12 lg:inset-x-20 top-8 bottom-0 border-x border-t border-zinc-800/40 pointer-events-none z-0">
+          <div className="absolute top-0 left-0 w-2 h-2 border-l border-t border-[#d4af37]"></div>
+          <div className="absolute top-0 right-0 w-2 h-2 border-r border-t border-[#d4af37]"></div>
+        </div>
+
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="relative z-10 w-full text-center"
+          initial={{ opacity: 0, scale: 0.98 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+          className="relative z-10 w-full text-center flex flex-col items-center justify-center mt-12"
         >
-          <SliderMaskText
-            text={`CHESS CLUB\nIITK`}
-            className="text-7xl md:text-[14rem] font-bold tracking-wide leading-[0.85]"
-          />
+          {/* Displaying Chess Club IITK in elite scale */}
+          <div className="relative py-8 px-4 md:px-12 border border-zinc-800/40 bg-black/20 backdrop-blur-md rounded-2xl max-w-5xl mx-auto shadow-2xl shadow-black/80">
+            {/* Subtle vintage mechanical coordinates in corners */}
+            <span className="absolute top-2 left-3 text-[9px] font-mono tracking-widest text-[#d4af37]/40">A8</span>
+            <span className="absolute top-2 right-3 text-[9px] font-mono tracking-widest text-[#d4af37]/40">H8</span>
+            <span className="absolute bottom-2 left-3 text-[9px] font-mono tracking-widest text-[#d4af37]/40">A1</span>
+            <span className="absolute bottom-2 right-3 text-[9px] font-mono tracking-widest text-[#d4af37]/40">H1</span>
+
+            <SliderMaskText
+              text={"CHESS CLUB\nIITK"}
+              className="text-6xl sm:text-7xl md:text-8xl lg:text-[13rem] font-bold tracking-tight leading-[0.85] font-display text-[#d4af37]"
+            />
+          </div>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 1.0 }}
+            className="mt-10 flex flex-col items-center gap-2"
+          >
+            <div className="w-1.5 h-1.5 bg-[#d4af37] rounded-full animate-pulse"></div>
+            <span className="text-[11px] uppercase tracking-[0.4em] text-[#e5e2e1]/40 font-mono">
+              The Gymnasium of Campus Minds
+            </span>
+          </motion.div>
         </motion.div>
       </section>
 
