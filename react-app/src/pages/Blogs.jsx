@@ -16,33 +16,33 @@ const BLOG_POSTS = [
     author: "Chess Club IITK",
     image: tournamentImg
   },
-  {
-    id: 3,
-    title: "IITK Grand Swiss: Path to the Candidates",
-    date: "March 15, 2026",
-    tag: "Event Recap",
-    excerpt: "A deep dive into the brutal 7-round grinding matches of the IITK Grand Swiss and how the top 3 players locked in their Candidate seats.",
-    author: "Akshat Srivastava",
-    image: grandSwissImg
-  },
-  {
-    id: 4,
-    title: "Instagram Puzzle #45: Endgames are Purely Math",
-    date: "February 24, 2026",
-    tag: "Puzzle Analytics",
-    excerpt: "Analyzing the tricky pawn endgame challenge posted to the community last week. When to push, and when to play the waiting game.",
-    author: "Kushagra Shukla",
-    image: endgameImg
-  },
-  {
-    id: 2,
-    title: "Instagram Puzzle #44: The Smothered Mate Everyone Missed",
-    date: "February 12, 2026",
-    tag: "Puzzle Analytics",
-    excerpt: "Breaking down the tactical trap from our recent Instagram reel. Why did 80% of commenters fail to spot the critical knight sacrifice?",
-    author: "Inesh Aggarwal",
-    image: smotheredMateImg
-  }
+  // {
+  //   id: 3,
+  //   title: "IITK Grand Swiss: Path to the Candidates",
+  //   date: "March 15, 2026",
+  //   tag: "Event Recap",
+  //   excerpt: "A deep dive into the brutal 7-round grinding matches of the IITK Grand Swiss and how the top 3 players locked in their Candidate seats.",
+  //   author: "Akshat Srivastava",
+  //   image: grandSwissImg
+  // },
+  // {
+  //   id: 4,
+  //   title: "Instagram Puzzle #45: Endgames are Purely Math",
+  //   date: "February 24, 2026",
+  //   tag: "Puzzle Analytics",
+  //   excerpt: "Analyzing the tricky pawn endgame challenge posted to the community last week. When to push, and when to play the waiting game.",
+  //   author: "Kushagra Shukla",
+  //   image: endgameImg
+  // },
+  // {
+  //   id: 2,
+  //   title: "Instagram Puzzle #44: The Smothered Mate Everyone Missed",
+  //   date: "February 12, 2026",
+  //   tag: "Puzzle Analytics",
+  //   excerpt: "Breaking down the tactical trap from our recent Instagram reel. Why did 80% of commenters fail to spot the critical knight sacrifice?",
+  //   author: "Inesh Aggarwal",
+  //   image: smotheredMateImg
+  // }
 ];
 
 const Blogs = () => {

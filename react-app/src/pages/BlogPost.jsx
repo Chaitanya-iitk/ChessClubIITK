@@ -39,10 +39,10 @@ const BlogPost = () => {
 
         <article className="font-body text-lg text-on-surface-variant">
           <p className="text-2xl text-on-surface font-serif leading-relaxed mb-10 first-letter:float-left first-letter:text-7xl first-letter:pr-4 first-letter:font-serif first-letter:text-primary">
-            IIT Kanpur is preparing to host its first FIDE-rated rapid chess tournament, marking a serious step forward for competitive chess on campus and in Kanpur.
+            Chess Club IITK is preparing to host its first FIDE-rated rapid chess tournament, marking a serious step forward for competitive chess on campus and in Kanpur.
           </p>
 
-          <p>For years, chess at IITK has lived in many forms: hostel blitz sessions, practice rooms, internal championships, online leagues, and long tournament nights where one move could rewrite an entire leaderboard. The club was formed in 2007 with that same spirit: to give chess players on campus a place to compete, learn, and build a culture around the game.</p>
+          <p>For years, chess at IITK has lived in many forms: internal championships, online leagues, and long tournament nights where one move could rewrite an entire leaderboard. The club was formed in 2007 with that same spirit: to give chess players on campus a place to compete, learn, and build a culture around the game.</p>
 
           <p>This event takes that culture into a larger arena. Scheduled for February 7, 2026, at Yoga Hall, New SAC, IIT Kanpur, the tournament will be a 9-round Swiss rapid event with a 10+5 time control and a prize pool of INR 2,00,000.</p>
 
@@ -55,11 +55,11 @@ const BlogPost = () => {
           <p>The move toward a FIDE-rated rapid tournament has been discussed within the club for several years. Logistics, academic schedules, and coordination challenges delayed the idea, but the ambition stayed alive. Now, with the first edition finally taking shape, IITK has the chance to turn a long-running club goal into a visible milestone.</p>
 
           <div className="my-12 p-8 bg-surface-container-low border border-outline-variant/15 rounded-xl">
-            <h4 className="text-primary font-label text-xs uppercase tracking-widest mb-4">Tournament Snapshot</h4>
+            <h4 className="text-primary font-label text-xs uppercase tracking-widest mb-4">Tournament Details</h4>
             <p className="text-sm font-serif italic m-0">Date: February 7, 2026. Venue: Yoga Hall, New SAC, IIT Kanpur. Format: 9-round Swiss. Time control: 10+5 rapid. Prize pool: INR 2,00,000.</p>
           </div>
 
-          <p>More than just another tournament, this is a statement that IIT Kanpur wants to be a serious home for over-the-board chess. For participants, it is a chance to test preparation, nerves, calculation, and clock handling in a rated field. For the club, it is the beginning of a bigger offline chapter.</p>
+          <p>For participants, it is a chance to test preparation, nerves, calculation, and clock handling in a rated field.</p>
 
           <p className="text-sm text-on-surface-variant/70">Based on reporting by ChessBase India.</p>
         </article>
