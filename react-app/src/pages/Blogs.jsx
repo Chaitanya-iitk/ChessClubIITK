@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import fresherImg from '../assets/fcl.png';
 import grandSwissImg from '../assets/grand_swiss_recap_1775765397656.png';
-import smotheredMateImg from '../assets/smothered_mate_puzzle_1775765413177.png';
+import winnerImg from '../assets/anuj_shivratri.png';
 import endgameImg from '../assets/endgame_puzzle_1775765427614.png';
 import tournamentImg from '../assets/fide.png';
 
@@ -34,15 +34,15 @@ const BLOG_POSTS = [
   //   author: "Kushagra Shukla",
   //   image: endgameImg
   // },
-  // {
-  //   id: 2,
-  //   title: "Instagram Puzzle #44: The Smothered Mate Everyone Missed",
-  //   date: "February 12, 2026",
-  //   tag: "Puzzle Analytics",
-  //   excerpt: "Breaking down the tactical trap from our recent Instagram reel. Why did 80% of commenters fail to spot the critical knight sacrifice?",
-  //   author: "Inesh Aggarwal",
-  //   image: smotheredMateImg
-  // }
+  {
+    id: 2,
+    title: "Anuj Shivratri wins FIDE-rated tournament!",
+    date: "February 15, 2026",
+    tag: "Tournament news",
+    excerpt: "Anuj Shrivatri emerges victorious at SBI GIC Fide Rated Rapid Tournament 2026 at IITK",
+    author: "Inesh Aggarwal",
+    image: winnerImg
+  }
 ];
 
 const Blogs = () => {

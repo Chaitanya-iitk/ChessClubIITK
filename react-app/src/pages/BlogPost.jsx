@@ -1,11 +1,11 @@
 import { Link, useParams } from 'react-router-dom';
 import fresherImg from '../assets/fcl.png';
 import tournamentImg from '../assets/fide.png';
-
+import winnerImg from '../assets/anuj_shivratri.png';
 const BlogPost = () => {
   const { id } = useParams();
 
-  if (id === '5') {
+  if (id === '2') {
     return (
       <div className="px-12 py-12 max-w-4xl mx-auto blog-content">
         <div className="mb-12 flex items-center gap-3 text-xs font-label uppercase tracking-widest text-on-surface-variant/50">
@@ -22,10 +22,74 @@ const BlogPost = () => {
               <span className="material-symbols-outlined text-primary">emoji_events</span>
             </div>
             <div>
-              <p className="text-sm font-bold text-on-surface">Laksh Dhir</p>
+              <p className="text-sm font-bold text-on-surface">Inesh Aggarwal</p>
               <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest">Coordinator, Chess Club IITK</p>
             </div>
           </div>
+          <div className="h-8 w-px bg-outline-variant/30"></div>
+          <div className="text-[10px] font-label uppercase tracking-widest text-on-surface-variant pt-1">
+            February 15, 2026 - 5 Min Read
+          </div>
+        </div>
+
+        <div className="w-full h-[700px] rounded-xl overflow-hidden mb-16 relative shadow-2xl shadow-black/50 bg-black/20">
+          <img alt="IIT Kanpur FIDE-rated rapid tournament" className="w-full h-full object-contain" src={tournamentImg}/>
+          <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-40 pointer-events-none"></div>
+        </div>
+
+
+        <article className="font-body text-lg text-on-surface-variant">
+          <p className="text-2xl text-on-surface font-serif leading-relaxed mb-10 first-letter:float-left first-letter:text-7xl first-letter:pr-4 first-letter:font-serif first-letter:text-primary">
+            Chess has been an integral part of the intellectual and competitive culture at IIT Kanpur. Beyond classrooms and laboratories, the game has served as a platform for strategic thinking, patience and fun. As interest in the sport continued to grow, so did the need for an organized platform that could nurture talent, encourage participation and provide competitive exposure. This vision laid the foundation for the formation of the Chess Club IITK in 2007.
+          </p>
+
+          <p>We organize a variety of events and initiatives across the academic year aimed at encouraging active participation of the campus community. These include the annual championship cycle, comprising events such as the Candidates Tournament, Grand Swiss, Chess Cup and Speed Chess Championship. We also conduct India’s Biggest Collegiate Chess League – CMPL, with the most recent edition having a 9 Lakh+ prize pool and 1500+ participants. We regularly hold practice sessions, internal tournaments (100+ participants) and street chess that help players gain consistent over the board experience. The chess team of IIT Kanpur has brought numerous laurels to our club. IIT Kanpur also honoured Sir Vishwanathan Anand with an honorary doctorate in 2016.</p>
+
+          <p>With relatively few top-tier tournaments being conducted regularly around Kanpur, a significant pool of emerging talent often remains underexposed and we saw this gap as an opportunity to enhance our reach to the next level. And what better platform than FIDE? So, building upon these year-round efforts to promote chess, we take a significant step forward by organizing our first FIDE Rated Rapid Chess Tournament with a whopping prize pool of 2,00,000 INR. This event reflects our commitment to organize chess competitions that meet professional standards and offer players the opportunity to participate in officially recognized events. Participants can look forward to this event as a chance to earn or improve their FIDE rating. The tournament will be conducted strictly in accordance with FIDE Laws of Chess, under the supervision of qualified arbiters to ensure fair play and smooth proceedings. We cordially invite chess players from clubs, institutions and independent backgrounds to join us for this special occasion.</p>
+
+          <h3>From Campus Boards to Rated Play</h3>
+          <p>The move toward a FIDE-rated rapid tournament has been discussed within the club for several years. Logistics, academic schedules, and coordination challenges delayed the idea, but the ambition stayed alive. Now, with the first edition finally taking shape, IITK has the chance to turn a long-running club goal into a visible milestone.</p>
+
+          <div className="my-12 p-8 bg-surface-container-low border border-outline-variant/15 rounded-xl">
+            <h4 className="text-primary font-label text-xs uppercase tracking-widest mb-4">Tournament Overview</h4>
+            <p className="text-sm font-serif m-0">Date: February 7, 2026. Venue: Yoga Hall, New SAC, IIT Kanpur. Format: 9-round Swiss. Time control: 10+5 rapid. Prize pool: INR 2,00,000.</p>
+          </div>
+
+          <p>We look forward to sharing a positive and memorable chess experience with all participants. Till then, Happy Chessing!</p>
+
+        </article>
+
+        <div className="mt-20 border-t border-outline-variant/15 pt-10 flex items-center justify-between">
+          <Link to="/blogs" className="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors text-sm font-label uppercase tracking-widest">
+              <span className="material-symbols-outlined text-sm">arrow_back</span>
+              Back to Archive
+          </Link>
+        </div>
+      </div>
+    );
+  }
+  else if(id==5){
+    return(
+      <div className="px-12 py-12 max-w-4xl mx-auto blog-content">
+        <div className="mb-12 flex items-center gap-3 text-xs font-label uppercase tracking-widest text-on-surface-variant/50">
+          <Link to="/blogs" className="hover:text-primary transition-colors">Archive</Link>
+          <span>/</span>
+          <span className="text-primary">Tournament News</span>
+        </div>
+
+        <h1 className="text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8 text-on-surface">IIT Kanpur's First FIDE-Rated Rapid: A New Chapter</h1>
+
+        <div className="flex items-center gap-6 mb-12 border-b border-outline-variant/15 pb-8">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full border border-primary/20 bg-primary-container/10 flex items-center justify-center shrink-0">
+              <span className="material-symbols-outlined text-primary text-[20px] leading-none">emoji_events</span>
+            </div>
+            <div className="flex flex-col justify-center">
+              <p className="text-sm font-bold text-on-surface leading-none">Laksh Dhir</p>
+              <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest mt-1 leading-none">Coordinator, Chess Club IITK</p>
+            </div>
+          </div>
+
           <div className="h-8 w-px bg-outline-variant/30"></div>
           <div className="text-[10px] font-label uppercase tracking-widest text-on-surface-variant pt-1">
             January 26, 2026 - 5 Min Read
