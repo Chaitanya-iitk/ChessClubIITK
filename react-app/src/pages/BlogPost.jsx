@@ -80,11 +80,11 @@ const BlogPost = () => {
         <h1 className="text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8 text-on-surface">IIT Kanpur's First FIDE-Rated Rapid: A New Chapter</h1>
 
         <div className="flex items-center gap-6 mb-12 border-b border-outline-variant/15 pb-8">
-          <div className="flex items-start gap-3">
-            <div className="w-10 h-10 rounded-full border border-primary/20 bg-primary-container/10 flex items-center justify-center shrink-0 mt-0.5">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full border border-primary/20 bg-primary-container/10 flex items-center justify-center shrink-0">
               <span className="material-symbols-outlined text-primary text-[20px] leading-none">emoji_events</span>
             </div>
-            <div className="pt-0.5">
+            <div>
               <p className="text-sm font-bold text-on-surface leading-tight m-0">Laksh Dhir</p>
               <p className="text-[10px] text-on-surface-variant font-label uppercase leading-tight m-0">
                 Coordinator, Chess Club IITK
