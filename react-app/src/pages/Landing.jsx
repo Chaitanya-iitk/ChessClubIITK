@@ -125,8 +125,9 @@ const Landing = () => {
             <p>From high-stakes inter-IIT tournaments to late-night blitz sessions in the Hall of Residence, we foster an environment where every pawn has the potential to become a queen.</p>
           </div>
           <div className="mt-12 p-8 bg-surface-container-low border-l-4 border-primary">
-            <span className="text-primary text-4xl font-serif italic">“</span>
-            <p className="text-xl font-serif italic text-on-surface -mt-4 mb-4">Chess is the gymnasium of the mind.</p>
+            <span className="text-primary text-4xl font-serif italic">“ </span>
+            <span className="text-xl font-serif italic text-on-surface -mt-4 mb-4">Chess is the gymnasium of the mind.</span>
+            <span className="text-primary text-4xl font-serif italic">” </span>
             <cite className="text-sm font-label text-on-surface-variant tracking-widest uppercase">— IITK Grandmaster Series</cite>
           </div>
         </div>
