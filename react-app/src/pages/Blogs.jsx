@@ -4,7 +4,7 @@ import fresherImg from '../assets/fresher_league_recap_1775765383248.png';
 import grandSwissImg from '../assets/grand_swiss_recap_1775765397656.png';
 import smotheredMateImg from '../assets/smothered_mate_puzzle_1775765413177.png';
 import endgameImg from '../assets/endgame_puzzle_1775765427614.png';
-import tournamentImg from '../assets/chess_tournament_gallery_1775821881801.png';
+import tournamentImg from '../assets/fide.png';
 
 const BLOG_POSTS = [
   {

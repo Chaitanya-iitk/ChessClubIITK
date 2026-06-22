@@ -22,8 +22,8 @@ const BlogPost = () => {
               <span className="material-symbols-outlined text-primary">emoji_events</span>
             </div>
             <div>
-              <p className="text-sm font-bold text-on-surface">Chess Club IITK</p>
-              <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest">Tournament Desk</p>
+              <p className="text-sm font-bold text-on-surface">Laksh Dhir</p>
+              <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest">Coordinator, Chess Club IITK</p>
             </div>
           </div>
           <div className="h-8 w-px bg-outline-variant/30"></div>
@@ -39,27 +39,22 @@ const BlogPost = () => {
 
         <article className="font-body text-lg text-on-surface-variant">
           <p className="text-2xl text-on-surface font-serif leading-relaxed mb-10 first-letter:float-left first-letter:text-7xl first-letter:pr-4 first-letter:font-serif first-letter:text-primary">
-            Chess Club IITK is preparing to host its first FIDE-rated rapid chess tournament, marking a serious step forward for competitive chess on campus and in Kanpur.
+            Chess has been an integral part of the intellectual and competitive culture at IIT Kanpur. Beyond classrooms and laboratories, the game has served as a platform for strategic thinking, patience and fun. As interest in the sport continued to grow, so did the need for an organized platform that could nurture talent, encourage participation and provide competitive exposure. This vision laid the foundation for the formation of the Chess Club IITK in 2007.
           </p>
 
-          <p>For years, chess at IITK has lived in many forms: internal championships, online leagues, and long tournament nights where one move could rewrite an entire leaderboard. The club was formed in 2007 with that same spirit: to give chess players on campus a place to compete, learn, and build a culture around the game.</p>
+          <p>We organize a variety of events and initiatives across the academic year aimed at encouraging active participation of the campus community. These include the annual championship cycle, comprising events such as the Candidates Tournament, Grand Swiss, Chess Cup and Speed Chess Championship. We also conduct India’s Biggest Collegiate Chess League – CMPL, with the most recent edition having a 9 Lakh+ prize pool and 1500+ participants. We regularly hold practice sessions, internal tournaments (100+ participants) and street chess that help players gain consistent over the board experience. The chess team of IIT Kanpur has brought numerous laurels to our club. IIT Kanpur also honoured Sir Vishwanathan Anand with an honorary doctorate in 2016.</p>
 
-          <p>This event takes that culture into a larger arena. Scheduled for February 7, 2026, at Yoga Hall, New SAC, IIT Kanpur, the tournament will be a 9-round Swiss rapid event with a 10+5 time control and a prize pool of INR 2,00,000.</p>
-
-          <h3>Why This Matters</h3>
-          <p>Kanpur has many talented players, but fewer regular opportunities to play high-quality rated events close to home. A FIDE-rated tournament on campus gives students, local players, club players, and independent participants a chance to compete under formal conditions without having to travel far for serious exposure.</p>
-
-          <p>It also reflects the direction Chess Club IITK has been moving in. The club already runs a full internal championship cycle, including events such as the Grand Swiss, Candidates Tournament, Chess Cup, and Speed Chess Championship. Alongside that, campus practice sessions, internal tournaments, street chess, and collegiate events have kept participation active throughout the year.</p>
+          <p>With relatively few top-tier tournaments being conducted regularly around Kanpur, a significant pool of emerging talent often remains underexposed and we saw this gap as an opportunity to enhance our reach to the next level. And what better platform than FIDE? So, building upon these year-round efforts to promote chess, we take a significant step forward by organizing our first FIDE Rated Rapid Chess Tournament with a whopping prize pool of 2,00,000 INR. This event reflects our commitment to organize chess competitions that meet professional standards and offer players the opportunity to participate in officially recognized events. Participants can look forward to this event as a chance to earn or improve their FIDE rating. The tournament will be conducted strictly in accordance with FIDE Laws of Chess, under the supervision of qualified arbiters to ensure fair play and smooth proceedings. We cordially invite chess players from clubs, institutions and independent backgrounds to join us for this special occasion.</p>
 
           <h3>From Campus Boards to Rated Play</h3>
           <p>The move toward a FIDE-rated rapid tournament has been discussed within the club for several years. Logistics, academic schedules, and coordination challenges delayed the idea, but the ambition stayed alive. Now, with the first edition finally taking shape, IITK has the chance to turn a long-running club goal into a visible milestone.</p>
 
           <div className="my-12 p-8 bg-surface-container-low border border-outline-variant/15 rounded-xl">
-            <h4 className="text-primary font-label text-xs uppercase tracking-widest mb-4">Tournament Details</h4>
+            <h4 className="text-primary font-label text-xs uppercase tracking-widest mb-4">Tournament Overview</h4>
             <p className="text-sm font-serif italic m-0">Date: February 7, 2026. Venue: Yoga Hall, New SAC, IIT Kanpur. Format: 9-round Swiss. Time control: 10+5 rapid. Prize pool: INR 2,00,000.</p>
           </div>
 
-          <p>For participants, it is a chance to test preparation, nerves, calculation, and clock handling in a rated field.</p>
+          <p>We look forward to sharing a positive and memorable chess experience with all participants. Till then, Happy Chessing!</p>
 
           <p className="text-sm text-on-surface-variant/70">Based on reporting by ChessBase India.</p>
         </article>
