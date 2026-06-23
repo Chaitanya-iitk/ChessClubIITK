@@ -12,7 +12,7 @@ const BLOG_POSTS = [
   {
     id: 1,
     title: "Fresher's Chess League 2026: An Absolute Thriller!",
-    date: "April 02, 2026",
+    date: "August 25, 2025",
     tag: "Event Recap",
     excerpt: "Recapping the absolute hype surrounding the offline auctions in the Senate Hall, analyzing the intense Round Robin pool matches at the OAT, and spotlighting the brilliant knockout blunders that ultimately led the underdogs to gold memberships.",
     author: "Tanmay Sahare",

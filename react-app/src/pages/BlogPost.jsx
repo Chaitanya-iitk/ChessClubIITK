@@ -143,7 +143,7 @@ const BlogPost = () => {
       </div>
 
       {/* Header */}
-      <h1 className="text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8 text-on-surface">Fresher's Chess League 2026: An Absolute Thriller!</h1>
+      <h1 className="text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8 text-on-surface">Fresher's Chess League 2025: An Absolute Thriller!</h1>
       
       {/* Metadata */}
       <div className="flex items-center gap-6 mb-12 border-b border-outline-variant/15 pb-8">
@@ -158,7 +158,7 @@ const BlogPost = () => {
         </div>
         <div className="h-8 w-px bg-outline-variant/30"></div>
         <div className="text-[10px] font-label uppercase tracking-widest text-on-surface-variant pt-1">
-          April 02, 2026 • 8 Min Read
+          August 25, 2025 • 8 Min Read
         </div>
       </div>
 
