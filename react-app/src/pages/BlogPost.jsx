@@ -312,10 +312,12 @@ const BlogPost = () => {
                 <p className="text-xs text-on-surface-variant/80 text-center mt-3 font-label uppercase tracking-wider">
                   Fresher's Chess League 2025
                 </p>
-              </div>
             </div>
           </div>
 
+          <p className="text-sm font-label text-on-surface-variant/70 text-center mt-12">
+            Thanks to Akshat Srivastava, Coordinator, Chess Club IITK, for sharing photographs and information about the tournament and chess culture at IITK
+          </p>
 
           <h2 className="text-3xl font-serif font-bold text-on-surface mt-16 mb-6 border-b border-outline-variant/15 pb-2">
             Final Ranking after 9 Rounds
