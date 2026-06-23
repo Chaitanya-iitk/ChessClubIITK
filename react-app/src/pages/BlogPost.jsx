@@ -316,9 +316,6 @@ const BlogPost = () => {
             </div>
           </div>
 
-          <p className="text-sm font-label text-on-surface-variant/70 text-center mt-12">
-            Thanks to Akshat Srivastava, Coordinator, Chess Club IITK, for sharing photographs and information about the tournament and chess culture at IITK
-          </p>
 
           <h2 className="text-3xl font-serif font-bold text-on-surface mt-16 mb-6 border-b border-outline-variant/15 pb-2">
             Final Ranking after 9 Rounds
@@ -393,6 +390,9 @@ const BlogPost = () => {
 
         <div className="flex items-center gap-6 mb-12 border-b border-outline-variant/15 pb-8">
           <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full border border-primary/20 p-0.5 bg-primary-container/10 flex items-center justify-center">
+              <span className="material-symbols-outlined text-primary font-bold">person</span>
+            </div>
             <div className="flex flex-col justify-start">
               <p className="text-sm font-bold text-on-surface !m-0 !leading-none">Laksh Dhir</p>
               <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest !m-0 !leading-none !mt-1">
@@ -460,9 +460,9 @@ const BlogPost = () => {
       {/* Metadata */}
       <div className="flex items-center gap-6 mb-12 border-b border-outline-variant/15 pb-8">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-full border border-primary/20 p-0.5">
-            <img alt="Author" className="w-full h-full rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaAlIqrr8k378NDrG6yLqQm8_fueXgk5fHBbuh-_ahSVxtDMXTYYaEUzzuKUDsNo86BQu3NXY73hAz9aV3L9KIzJfHJsxU5EVXAxNk1wdJge-3tW5C8XSkobeDhig_yfNM5zzDmo8C0HexWJcUumwjOQEvWOm8FZA3c5EZRWEWeRzgZj15SEoERDr3kDntSGYElCKxiv-dApp91iBQahaEUC4GJkmemodr5ry5p5Dl8hkFAaPH9KpUyQT6yggglxuRYhuIcxEP3Do"/>
-          </div>
+          <div className="w-10 h-10 rounded-full border border-primary/20 p-0.5 bg-primary-container/10 flex items-center justify-center">
+              <span className="material-symbols-outlined text-primary font-bold">person</span>
+            </div>
           <div className="flex flex-col justify-start">
             <p className="text-sm font-bold text-on-surface !m-0 !leading-none">Tanmay Sahare</p>
             <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest !m-0 !leading-none !mt-1">Tournament Coordinator</p>
