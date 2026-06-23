@@ -23,9 +23,9 @@ const BlogPost = () => {
             <div className="w-10 h-10 rounded-full border border-primary/20 p-0.5 bg-primary-container/10 flex items-center justify-center">
               <span className="material-symbols-outlined text-primary font-bold">person</span>
             </div>
-            <div>
-              <p className="text-sm font-bold text-on-surface">Laksh Dhir</p>
-              <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest">Coordinator, Chess Club IITK</p>
+            <div className="flex flex-col justify-start">
+              <p className="text-sm font-bold text-on-surface m-0 leading-none">Laksh Dhir</p>
+              <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest m-0 leading-none mt-1">Coordinator, Chess Club IITK</p>
             </div>
           </div>
           <div className="h-8 w-px bg-outline-variant/30"></div>
@@ -395,7 +395,7 @@ const BlogPost = () => {
           <div className="flex items-center gap-3">
             <div className="flex flex-col justify-start">
               <p className="text-sm font-bold text-on-surface m-0 leading-none">Laksh Dhir</p>
-              <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest m-0 leading-none">
+              <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest m-0 leading-none mt-1">
                 Coordinator, Chess Club IITK
               </p>
             </div>
@@ -463,9 +463,9 @@ const BlogPost = () => {
           <div className="w-10 h-10 rounded-full border border-primary/20 p-0.5">
             <img alt="Author" className="w-full h-full rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaAlIqrr8k378NDrG6yLqQm8_fueXgk5fHBbuh-_ahSVxtDMXTYYaEUzzuKUDsNo86BQu3NXY73hAz9aV3L9KIzJfHJsxU5EVXAxNk1wdJge-3tW5C8XSkobeDhig_yfNM5zzDmo8C0HexWJcUumwjOQEvWOm8FZA3c5EZRWEWeRzgZj15SEoERDr3kDntSGYElCKxiv-dApp91iBQahaEUC4GJkmemodr5ry5p5Dl8hkFAaPH9KpUyQT6yggglxuRYhuIcxEP3Do"/>
           </div>
-          <div>
-            <p className="text-sm font-bold text-on-surface">Tanmay Sahare</p>
-            <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest">Tournament Coordinator</p>
+          <div className="flex flex-col justify-start">
+            <p className="text-sm font-bold text-on-surface m-0 leading-none">Tanmay Sahare</p>
+            <p className="text-[10px] text-on-surface-variant font-label uppercase tracking-widest m-0 leading-none mt-1">Tournament Coordinator</p>
           </div>
         </div>
         <div className="h-8 w-px bg-outline-variant/30"></div>
