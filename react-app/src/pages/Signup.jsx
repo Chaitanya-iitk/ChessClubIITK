@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 
 const Signup = () => {
   const [step, setStep] = useState(1); // Tracks which form to show
@@ -26,7 +27,7 @@ const Signup = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/send-otp', {
+      const response = await fetch(`${API_BASE_URL}/api/send-otp`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: email }),
@@ -56,7 +57,7 @@ const Signup = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/verify-register', {
+      const response = await fetch(`${API_BASE_URL}/api/verify-register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
