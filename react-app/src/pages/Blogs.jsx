@@ -44,11 +44,11 @@ const BLOG_POSTS = [
   // },
   {
     id: 2,
-    title: "Anuj Shivratri wins FIDE-rated tournament!",
+    title: "Anuj Shrivatri wins FIDE-rated tournament!",
     date: "February 15, 2026",
     tag: "Tournament news",
     excerpt: "Anuj Shrivatri emerges victorious at SBI GIC Fide Rated Rapid Tournament 2026 at IITK",
-    author: "Inesh Aggarwal",
+    author: "Laksh Dhir",
     authorRole: "Coordinator, Chess Club IITK",
     readTime: "5 Min Read",
     image: winnerImg
