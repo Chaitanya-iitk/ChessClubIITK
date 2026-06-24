@@ -176,7 +176,7 @@ const Calendar = () => {
 
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-12 lg:col-span-9">
-            <div className="flex min-h-[720px] flex-col overflow-hidden rounded-2xl border border-outline-variant/10 bg-surface-container-low">
+            <div className={`flex flex-col overflow-hidden rounded-2xl border border-outline-variant/10 bg-surface-container-low ${viewMode === 'calendar' ? 'min-h-[720px]' : ''}`}>
               <div className="flex shrink-0 items-center justify-between border-b border-outline-variant/10 px-4 py-4 sm:px-6">
                 <h3 className="text-2xl font-serif font-bold text-on-surface sm:text-3xl">
                   {monthName}{' '}
