@@ -16,7 +16,7 @@ app = Flask(__name__)
 CORS(
     app,
     origins=[
-        "https://chess-club-iitk-myfork.vercel.app/"
+        "https://chess-club-iitk-myfork.vercel.app"
     ]
 )
 
